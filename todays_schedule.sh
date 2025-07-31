@@ -1,4 +1,4 @@
-echo "today date $(date +%A)"
+echo "today $(date +%A)"
 today="$(date +%A)"
 grep $today timetable.csv
 
